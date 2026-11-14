@@ -27,7 +27,7 @@ Retrieval, classification, translation, logic, and structured-output nodes can b
 - Port dragging, port clicking, and source-to-target node connection controls
 - Optional Research, Document, and Data Analyst nodes
 - Safe browser demonstrations for the three advanced nodes
-- Optional local FastAPI and LangGraph service for those Agent nodes
+- Optional local FastAPI and LangGraph demo service for those Agent nodes (canned results, no model calls)
 - Optional LangSmith engineering tracing
 
 LangGraph is not required for normal workflows. LangMem is not included in the MVP because no governed long-term-memory use case currently requires it.
@@ -85,6 +85,8 @@ The database migration in `drizzle/0000_pale_ultimatum.sql` creates the connecti
 
 Run this only when you want the Research, Document, or Data Analyst node to use the Python LangGraph runtime instead of its safe browser fallback.
 
+The agent runtime is a demo. Its tools return canned "sandbox" results (see `services/agent-runtime/app/tools/`) and no model is called, so it shows the orchestration, permissions and tracing, not real research or analysis.
+
 In a second terminal:
 
 ```powershell
@@ -109,7 +111,7 @@ Use normal nodes for prompting, summarization, classification, translation, extr
 - Browser local storage for device-local drafts
 - Cloudflare D1 for server-side connection metadata and OAuth state
 - Server-side OAuth with encrypted provider token storage
-- Optional Python, FastAPI, and LangGraph service for Agent nodes
+- Optional Python, FastAPI, and LangGraph demo service for Agent nodes (canned results, no model calls)
 - Optional LangSmith traces for engineering diagnostics
 - Cloudflare-compatible frontend output
 
