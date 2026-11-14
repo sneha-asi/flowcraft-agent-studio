@@ -39,7 +39,7 @@ LangGraph is not required for normal workflows. LangMem is not included in the M
 Requirements: Node.js 22.13 or newer and npm.
 
 ```powershell
-git clone https://github.com/snehaguptagi/flowcraft-agent-studio.git
+git clone https://github.com/sneha-asi/flowcraft-agent-studio.git
 cd flowcraft-agent-studio
 npm ci
 npm run dev
@@ -147,4 +147,4 @@ The current Vercel build runs the workflow builder and local demo experience. Se
 
 OpenAI Sites remains available as an optional private callback/demo host; it does not host the optional Python Agent-node service.
 
-GitHub repository: [snehaguptagi/flowcraft-agent-studio](https://github.com/snehaguptagi/flowcraft-agent-studio)
+GitHub repository: [sneha-asi/flowcraft-agent-studio](https://github.com/sneha-asi/flowcraft-agent-studio)

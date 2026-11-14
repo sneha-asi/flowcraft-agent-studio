@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/snehaguptagi/flowcraft-agent-studio.git"
+    "url": "https://github.com/sneha-asi/flowcraft-agent-studio.git"
   },
   "engines": {
     "node": ">=22.13.0"
